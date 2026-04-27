@@ -1,0 +1,113 @@
+ARTIFICAL INTELLIGENCE – Assessment 2026
+Learning Outcomes
+•	LO1 ‐ Gain knowledge and understanding of artificial intelligence  
+•	LO2 ‐ Be able to work effectively in teams to design an intelligent system  
+•	LO3 ‐ Demonstrate ability to communicate effectively on the topic of AI  
+•	LO4 – Be able to develop a simple prototype from a brief using existing skills 
+Assignment 2  (75%):  
+Artifact 75% - Assignment 2 requires you to construct an AI based product/artifact showing that you can apply the knowledge gained in this module to a practical problem and document your work professionally. You are required to work as a team of 2 students.  
+Submission to include:  
+1.	Viva ‐ short presentation of work in context  (slide presentation followed by a brief demo of the product/artifact)
+2.	Technical Documentation –This should include a problem description, a brief description of research and challenges faced, UML Diagrams (e.g.  state transition diagrams,  class diagrams), a description of how the Artifact works (possibly aided by diagram/screen shots/photos), P.E.A.S. of the AI product, a description of AI traits (e.g. visual perception, NLP, searching) found in the developed product, Algorithms (e.g. flow charts), source code listing, test plans and test data, conclusion and references.   
+3.	Application that runs – A pre‐compiled, packaged solution that runs from an executable file without extra installation of libraries:  
+
+ 
+
+All submissions will be graded using the following criteria:  
+•	Professionalism (works well and is good enough to showcase) [LO2, LO4] 50%  
+•	Communication skills – written (technical documentation) [LO2, LO3, LO4] 20%  
+•	Communication skills – verbal (viva - ppt presentation + demo of the artifact) [LO2, LO3] 20%  
+•	Creativity (eg. graphics or concept) [LO2] [LO4] 10% 
+To receive  
+A: Excellence in all aspects  
+B: Good working application with clear documentation showing references  
+C: Working prototype with documentation showing references  
+D: Basic working prototype with documentation showing references  
+E: Attempt at prototype with documentation showing references 
+For Assignment 2, choose one of the following:  
+
+1.	Intelligent Agent
+Develop a visual scenario with some limited animation where an intelligent, software created entity/agent pursues a goal amidst various obstacles and natural phenomena such as rain, sunshine, darkness or stormy weather.  In its quest to achieve the goal, the agent would meet and interact with other agents who may be friends or foe. 
+The simulation may be implemented using Unity or JavaScript. 
+The agent should demonstrate state-based behavior. That is, the agent should undergo state transitions in response to events.  The scenario must not have a predefined sequence and must NOT play out like a video; rather it should reach alternative endings depending on the events and actions of different agents. You are encouraged to include random happenings to make it totally unpredictable.
+
+The intelligence traits that could be included for agent behavior include:
+•	Natural language communication among agents (this can be depicted as ”call out” signs of text or as audio clips)
+•	Perceptions (ability to see, hear, smell, sense and respond intelligently)
+•	Emotional intelligence (example: indications of happiness, anger)
+•	Learning (e.g.  remembering something important, not making the same mistake twice, receiving advice from someone) 
+•	Searching/path finding
+•	Decision making
+To obtain a higher grade, you should include at least three of the above traits and simulate some real world physics in the program (examples: what the agent can see depends on his/her “cone of vision” and other factors such as time of day, the agent could hear something only when it occurs within the hearing range).  Following is a list of suggestions for the Agent scenario. However, you are free to develop your own scenario (perhaps based on a fairy tale or a movie) provided it is of adequate complexity and meets the aforementioned criteria. 
+Treasure Hunter
+ 
+An Indiana jones like character searches for a lost treasure in the Amazonian jungle. Many are the dangers that he will face (e.g. wild animals, tribal attacks, monsters, broken bridges to cross) before reaching his goal.
+
+Boy Scout adventure
+ 
+A boy scout lost in the woods must find the correct way out. Food and water stock is limited, it’s getting dark and the cell phone is out of signal range.
+Things to consider: change of weather, appearance of a dangerous wild animal, darkness falling, sudden drop of temperature, useful advice from a forest dwelling hermit, sound of a rescue helicopter etc. etc.
+Sheep Dog
+ 
+Simulate the behavior of a sheep dog that protects sheep flock from dangers like wolves and herds them safely to enclosure. Things to consider: scattering of the flock, direction of the wolf’s approach, wolf trying different strategies (learning), obstacle avoidance, path finding, owner’s call heard from a distance, type of terrain, dangers in the terrain (e.g. precipice). 
+
+
+
+
+2.	Virtual Assistant (Chat Bot)
+Develop a software that converses with the user in natural language and provides assistance/advice in some limited domain such as travel and tourism, banking, auto sales or education counseling. The questions and answers should be text based (this can be supplemented with voice input and voice output). For a higher grade, you should attempt to incorporate training/machine learning (i.e. make the bot learn things on its own via user interaction) into the program. 
+ 
+The design should be based on three tiers as follows:
+Natural Language Interface – Text based interface for questions and answers. You may optionally add visuals (e.g. smiling face, surprise, annoyance) to make it more realistic and emotionally intelligent.
+Inference Engine – software that maps questions to correct answers
+Database/Knowledge base – Static facts (e.g. “Thank you” maps to “You are welcome”, “Good morning” maps to “Good morning”) may be hard coded or stored on some data structure such as a hash map, but the facts that can change/update with time must be obtained from a database.  For example, when a user asks a “tour planning assistant” what types of packages they have, the answer should be a list of holiday packages obtained from the database.  
+
+
+
+Marking Schmes for Assignment 2 (75%)
+MARKING SCHEME FOR INTELLIGENT AGENT
+Professionalism (50%)	Choice of a suitable idea (e.g. honey bee) 	2
+	Implementation of at least three different intelligence traits (e.g. visual perception, learning, searching) 
+NOTE: Award 10 marks for each feature. Repeated use of the same feature (e.g. visual perception in three different places) will NOT gain more than 10 marks	10  X 3 = 30
+
+
+
+	At least one Indication of real world physics (e.g. cone of vision)	4
+	Events and state transitions	5
+	Overall functionality, quality and appearance	6
+Technical Documentation (20%)	Clear description of the product behavior aided by diagrams/ screen shots	2
+	State transition diagram	3
+	Description of intelligence traits used in the program	3
+	Description of P.E.A.S (Performance, Environment, Actuators, Sensors)  for each intelligent agent	4
+	Algorithms (e.g. flow charts, pseudo codes)	3
+	Fully annotated source code listing	5
+	Test data and results	1
+	Conclusion	1
+	References	1
+Communication skills (20%)	Facts presented clearly and coherently	8
+	Effective demonstration of the product	8
+	Overall quality of the Viva	4
+Creativity (10%)	Originality of ideas/concepts	5
+	Artifact is attractive and is good enough to showcase 	5
+
+MARKING SCHEME FOR CHAT BOT
+Professionalism (50%)	Choice of a suitable application (e.g. banking, travel & tourism, COVID 19 Support Centre)  	2
+	Effective Implementation of Natural Language Processing (NLP) via a program/inference engine	22
+	Use of persistent storage (e.g. relational database, text files) to store facts (knowledge base)	5
+	An Indication of machine learning (i.e. chat bot updating its own knowledge base)	5
+	Text based natural language interface	5
+	Overall functionality, quality and appearance	6
+Technical Documentation (20%)	Clear description of the product 	2
+	Research 	4
+	Design architecture (i.e. main components of the Bot)	2
+	Description of P.E.A.S (Performance, Environment, Actuators, Sensors)  of the Bot	2
+	Key design ideas supported by code snippets ( lemmatizing, small talk,  random answers, getting database answers, training the Bot etc.)	8
+	Algorithms (e.g. flow charts, pseudo codes)	2
+	Fully annotated source code listing	2
+	Test data and results	2
+	Conclusion + references	1
+Communication skills (20%)	Facts presented clearly and coherently	8
+	Effective demonstration of the product	8
+	Overall quality of the Viva	4
+Creativity (10%)	Originality of ideas/concepts	5
+	Artifact is attractive and is good enough to showcase 	5
